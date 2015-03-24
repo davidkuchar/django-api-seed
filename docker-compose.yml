@@ -1,0 +1,29 @@
+web:
+  build: .
+  hostname: api_dev
+  ports:
+    - "80:8000"
+    - "443:443"
+  # links:
+  #   - mysql:mysql
+  #   - redis:redis
+  volumes:
+  #   - "merchant:/public/merchant"
+  #   - "checkout:/public/checkout"
+    - "api:/usr/src/app"
+  #   - "docker/certs:/certs"
+#
+# mysql:
+#   image: dvnkshl/mysql
+#   hostname: mysql
+#   ports:
+#     - "3306:3306"
+#   command: mysqld_safe
+#   volumes:
+#     - "docker/var/lib/mysql:/var/lib/mysql/data"
+#
+# redis:
+#   image: orchardup/redis
+#   hostname: redis
+#   ports:
+#     - "6379:6379"
