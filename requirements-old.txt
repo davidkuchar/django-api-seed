@@ -1,0 +1,75 @@
+
+
+# requirements/common.txt
+Django==1.4.2
+
+django-celery>=3.0
+django-indexer
+# django_compressor>=1.2a2
+django-paging
+django-ses
+django-coffeescript
+django-bootstrap-toolkit
+django-grappelli
+django-floppyforms
+django-reversion
+django-memcache-status
+django-storages>=1.1.5
+microsofttranslator
+django-lazysignup
+django-countries
+
+raven>=2.0.0
+boto
+South
+coverage
+simplejson
+pillow
+djaml
+hamlpy
+pygments
+--allow-external ElementTree
+Markdown
+# periscope-django
+pytz
+nose
+pygeoip
+newrelic
+fabric
+
+python-memcached
+python-dateutil>=1.5
+
+-e hg+https://bitbucket.org/mirror/suds#egg=suds
+
+# git+https://github.com/tschellenbach/Django-facebook.git#egg=django_facebook
+-e git+https://github.com/tschellenbach/Django-facebook.git@142cbcf29390c5548b7e67ef41b786e48900805f#egg=django_facebook
+-e git+https://github.com/playfire/django-email-from-template.git#egg=email_from_template
+-e git+https://github.com/stripe/stripe-python.git#egg=stripe
+-e git+https://github.com/kissmetrics/KISSmetrics.git#egg=kissmetrics
+-e git+https://github.com/simplegeo/python-oauth2.git#egg=python_oauth2
+-e git+https://github.com/themartorana/python-postmark.git#egg=postmark
+-e git+https://github.com/jbalogh/django-nose.git#egg=django_nose
+
+# my forks:
+-e git+https://github.com/davidkuchar/django-rosetta.git#egg=rosetta
+# -e git+https://github.com/davidkuchar/django-localflavor-UK-forms.git#egg=gb_phone_number_field
+
+-e git+https://github.com/davidkuchar/metron.git#egg=metron
+
+# distribute
+# django-extensions
+# wsgiref
+# yolk
+# path.py
+# pillow
+# psycopg2
+# sorl-thumbnail
+# ipython
+# uWSGI
+# Werkzeug
+# pylibmc
+# django-pylibmc-sasl
+# django-flatblocks
+# django-autoslug
+# django-annoying
